@@ -4,6 +4,7 @@ Este repositorio contiene la propuesta de desarrollo, documentación técnica y 
 
 
 **Instrucciones para Colaboradores**
+
 Clonar el repositorio.
 
 Crear una rama siguiendo la nomenclatura **feat/nombre-de-la-tarea.**
