@@ -52,6 +52,9 @@ e.	Métricas del proyecto.	12
 i.	Tiempos	12
 ii.	Costo estimado	12
 iii.	Indicadores del avance	12
+5. Producto.	12
+a.	Funcionalidades principales.	12
+c.	Características del software.	13
 
  
 1.	Descripción general del sistema.
@@ -243,3 +246,28 @@ El uso de GitHub permitirá que todos los integrantes del equipo puedan colabora
 También se utilizarán Pull Requests, los cuales permitirán revisar el código antes de integrarlo al repositorio principal, asegurando que el código cumpla con los estándares del equipo y evitando errores en el sistema.
 
 El control de versiones mediante GitHub facilita el trabajo colaborativo, mejora la organización del proyecto y permite recuperar versiones anteriores del código en caso de errores o fallas.
+
+5. Producto.
+a.	Funcionalidades principales.
+Estas son las funciones clave que permiten que el sistema cumpla con su propósito de organizar el comercio en la UACJ: 
+•	Autenticación Institucional: Acceso restringido exclusivamente a estudiantes mediante la validación de matrícula o correo de la UACJ.
+•	Gestión de Inventario en Tiempo Real: Panel para que el vendedor publique artículos y pueda deshabilitarlos o marcarlos como "agotados" al instante.
+•	Buscador Categorizado: Filtros por tipo de producto como libros, alimentos, servicios y material escolar para evitar contenido irrelevante.
+•	Clasificación por Institutos: Opción para filtrar productos según el campus (ICSA, IIT, IADA, ICB o CU) y facilitar la entrega física.
+•	Sistema de Reporte Comunitario: Herramienta para señalar comportamientos sospechosos o cuentas falsas, reforzando la seguridad del entorno.
+•	Perfil de Usuario Personalizado: Espacio para gestionar el historial de publicaciones activas y datos de contacto institucionales.
+•	Catálogo de Favoritos: Función para guardar artículos de interés y localizarlos rápidamente sin que se pierdan en el feed.
+•	Enlace de Contacto Directo: Botón para acordar puntos de entrega dentro del instituto sin exponer datos privados de forma pública.
+•	Búsqueda por Palabras Clave: Motor de búsqueda para localizar artículos específicos de forma inmediata.
+
+
+b.	Características del software.
+MercaDito Libre se define por las siguientes cualidades técnicas y de experiencia de uso:
+•	Exclusividad Universitaria: Entorno cerrado que garantiza que todos los participantes son miembros activos de la UACJ.
+•	Diseño Mobile-First: Interfaz optimizada para una navegación rápida y sencilla desde dispositivos móviles entre clases.
+•	Gestión de Stock Dinámica: Prioriza la visibilidad de la disponibilidad real de los productos, a diferencia de las redes sociales convencionales.
+•	Interacción Híbrida: El sistema gestiona la información, pero el pago y la entrega se realizan físicamente (efectivo o transferencia).
+•	Arquitectura Escalable y Ágil: Desarrollado bajo metodología SCRUM, permitiendo añadir funciones de forma incremental.
+•	Navegación Intuitiva (UI/UX): Diseño enfocado en encontrar lo que se busca con el menor número de clics posibles.
+•	Eficiencia en Consumo de Datos: Optimización de recursos para funcionar correctamente con el Wi-Fi universitario o datos móviles.
+•	Sincronización en Tiempo Real: Los cambios en el inventario se reflejan inmediatamente para evitar desinformación sobre el stock.
