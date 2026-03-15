@@ -203,3 +203,43 @@ ii.	Costo estimado
 iii.	Indicadores del avance
 	Estado de GitHub: Número de commits y funcionalidades integradas al repositorio principal.
 	Cumplimiento de prototipos: Porcentaje de pantallas de la interfaz validadas en Figma y aprobadas por el equipo.
+
+6. Tecnologia
+
+a. Lenguaje elegido
+
+Para el desarrollo del sistema MercaDito Libre se propone utilizar JavaScript como lenguaje principal de programación, ya que permite desarrollar tanto el frontend como el backend del sistema utilizando tecnologías modernas de desarrollo web.
+
+En el lado del cliente se utilizará JavaScript junto con HTML y CSS para construir la interfaz del sistema, permitiendo que los estudiantes puedan navegar fácilmente por las categorías de productos, publicar artículos y gestionar su inventario desde cualquier navegador o dispositivo móvil.
+
+Para el lado del servidor se propone utilizar Node.js, lo que permitirá gestionar la lógica del sistema, como el registro de usuarios, autenticación mediante correo institucional, manejo de inventario y comunicación con la base de datos.
+
+b. Herramientas
+
+Durante el desarrollo del sistema se utilizarán diferentes herramientas tecnológicas que permitirán organizar el trabajo del equipo, diseñar la interfaz y gestionar el proyecto de manera eficiente.
+
+Entre las principales herramientas se encuentran:
+
+Jira:
+Se utilizará para la gestión del proyecto y la organización de tareas mediante un tablero de trabajo basado en la metodología Scrum. En esta herramienta se registrarán las historias de usuario, sprints y el seguimiento del progreso del equipo.
+
+Figma:
+Será utilizada para el diseño de la interfaz gráfica del sistema y la creación de prototipos de navegación. Esto permitirá visualizar cómo funcionará la aplicación antes de comenzar el desarrollo.
+
+Visual Studio Code:
+Será el editor de código principal utilizado por los desarrolladores para programar las funcionalidades del sistema.
+
+MySQL / XAMPP:
+Se utilizará para la simulación y gestión de la base de datos del sistema, permitiendo almacenar información sobre usuarios, productos, categorías y disponibilidad de inventario.
+
+
+
+c. Control de versiones (GitHub)
+
+Para el control de versiones del proyecto se utilizará la plataforma GitHub, la cual permitirá almacenar el repositorio del sistema MercaDito Libre y mantener un historial completo de los cambios realizados en el proyecto.
+
+El uso de GitHub permitirá que todos los integrantes del equipo puedan colaborar en el desarrollo del proyecto de manera organizada, subiendo sus cambios mediante commits y revisiones de código. Además, se utilizará una estrategia de ramas para evitar conflictos en el desarrollo, donde las nuevas funcionalidades serán desarrolladas en ramas independientes antes de ser integradas a la rama principal.
+
+También se utilizarán Pull Requests, los cuales permitirán revisar el código antes de integrarlo al repositorio principal, asegurando que el código cumpla con los estándares del equipo y evitando errores en el sistema.
+
+El control de versiones mediante GitHub facilita el trabajo colaborativo, mejora la organización del proyecto y permite recuperar versiones anteriores del código en caso de errores o fallas.
