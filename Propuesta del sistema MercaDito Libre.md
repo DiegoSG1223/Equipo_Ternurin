@@ -55,6 +55,8 @@ iii.	Indicadores del avance	12
 5. Producto.	12
 a.	Funcionalidades principales.	12
 c.	Características del software.	13
+6. Tecnologia 
+
 
  
 1.	Descripción general del sistema.
@@ -271,3 +273,28 @@ MercaDito Libre se define por las siguientes cualidades técnicas y de experienc
 •	Navegación Intuitiva (UI/UX): Diseño enfocado en encontrar lo que se busca con el menor número de clics posibles.
 •	Eficiencia en Consumo de Datos: Optimización de recursos para funcionar correctamente con el Wi-Fi universitario o datos móviles.
 •	Sincronización en Tiempo Real: Los cambios en el inventario se reflejan inmediatamente para evitar desinformación sobre el stock.
+
+6. Tecnologia 
+b. Herramienta de prueba (QA)
+En esta sección nos enfocaremos en asegurar que el sistema sea confiable y que las transacciones de compra/venta sean exactas. 
+
+Pruebas de Transacciones (TPS - Transaction Processing Systems):  Se implementarán pruebas específicas para validar el flujo de transacciones. El objetivo es asegurar que las operaciones cumplan con las propiedades ACID (Atomicidad, Consistencia, Aislamiento y Durabilidad), garantizando que si una venta falla, el inventario no se altere erróneamente. 
+
+Pruebas Unitarias y de Integración: Herramienta: PHPUnit. Se utilizará para automatizar la verificación de la lógica de negocio, como el cálculo de totales, aplicación de descuentos y la correcta comunicación entre los módulos de "Carrito" y "Base de Datos". 
+
+Pruebas de Interfaz (UI): Herramienta: Figma. Uso de prototipos navegables para validar la experiencia del usuario antes de la codificación final. 
+
+Pruebas de API y Consultas: Herramienta: Postman. Para testear que las peticiones al servidor local (XAMPP) devuelvan los datos correctos de los productos. 
+
+ 
+
+e. Infraestructura 
+
+Entorno de Desarrollo Local: Stack: XAMPP ( MySQL, PHP). Se eligió por su facilidad para montar un servidor local rápido que permite simular el comportamiento de un servidor real en las computadoras de los 5 integrantes. 
+
+Control de Versiones y Repositorio: Herramienta: GitHub. Es la infraestructura. Se utilizará un flujo de trabajo tipo GitHub Flow con una rama para código estable y ramas por funcionalidad  
+
+Gestión de Base de Datos: Herramienta: phpMyAdmin. Para la administración visual, diseño de tablas y ejecución de scripts SQL de forma eficiente.  
+
+Colaboración y Documentación: Herramientas: Microsoft Teams y Jira. Como mencionamos en el TXT, estas herramientas forman parte de la infraestructura de gestión para el seguimiento de tareas y almacenamiento de manuales técnicos. 
+
