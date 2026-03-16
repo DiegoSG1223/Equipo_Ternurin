@@ -52,6 +52,12 @@ e.	Métricas del proyecto.	12
 i.	Tiempos	12
 ii.	Costo estimado	12
 iii.	Indicadores del avance	12
+4.	Personas.	12
+a.	Roles.	12
+b.	Responsabilidades.	13
+c.	Estrategias de comunicación.	14
+d.	Reglas internas del equipo.	14
+e.	Reglas para el manejo de conflictos	14
 5. Producto.	12
 a.	Funcionalidades principales.	12
 c.	Características del software.	13
@@ -209,6 +215,61 @@ iii.	Indicadores del avance
 	Estado de GitHub: Número de commits y funcionalidades integradas al repositorio principal.
 	Cumplimiento de prototipos: Porcentaje de pantallas de la interfaz validadas en Figma y aprobadas por el equipo.
 
+
+​ 4.	Personas.
+a.	Roles.
+El equipo Ternurin está conformado por 5 personas y nos hemos organizado para asignar los roles para el desarrollo del sistema MercaDito Libre.
+·	Project Manager: para la gestión y coordinación del proyecto estará a cargo América Aurora Álvarez Rodríguez.
+·	Diseñadores UI/UX: para el diseño y experiencia de usuario los responsables son Abril Gisel Aguilera Rico y Marco Antinio Martínez Ortiz.
+·	Desarrolladores de software: Los responsables de la arquitectura del software e implementación del proyecto son Diego Arath Sáenz González y Rubén Joel Fierro Luevanos.
+
+b.	Responsabilidades.
+Cada rol tiene responsabilidades específicas para asegurar el cumplimiento de los objetivos, permitir un avance de manera organizada y que cada miembro contribuya al desarrollo del sistema de MercaDito Libre.
+
+·	Project Manager:
+  o	Planificar las actividades del proyecto.
+  o	Supervisar el complimiento del cronograma de 6 semanas y el progreso del proyecto.
+  o	Administrar y organizar los sprints y tareas dentro de Jira.
+  o	Gestionar los riesgos del proyecto y aplicar los planes de mitigación.
+  o	Coordinar las reuniones de seguimiento del equipo.
+  o	Actuar como mediadora principal en la resolución de conflictos internos.
+·	Diseñadores UI/UX:
+  o	Diseñar la interfaz del sistema.
+  o	Crear los prototipos del sistema en Figma.
+  o	Asegurarse que la navegación del sistema sea intuitiva y fácil de utilizar.
+  o	Colaborar con los desarrolladores para implementar correctamente el diseño.
+·	Desarrolladores de software:
+  o	Programar las funcionalidades principales del sistema.
+  o	Implementar la lógica del control de inventario.
+  o	Integrar la base de datos con la interfaz del sistema.
+  o	Implementar el módulo de validación de estudiante mediante correo de la UACJ.
+  o	Administrar el control de versiones y mantener actualizado el repositorio en GitHub.
+
+c.	Estrategias de comunicación.
+Para que el equipo Ternurin tenga una comunicación fluida y una buena coordinación entre los integrantes del equipo se implementaran las siguientes estrategias de comunicación:
+·	Reuniones en Microsoft Teams: Se programarán reuniones semanales para revisar el progreso del proyecto, resolver dudas y asignar nuevas tareas.
+·	Seguimiento mediante Jira: Todas las tareas y avances del proyecto se registrarán en el tablero de Jira para mantener un control claro del progreso.
+·	Notificación de cambios: Notificaciones automáticas de cambios en Jira y revisiones de código mediante Pull Requests en GitHub.
+·	Comunicación constante del equipo: Los integrantes podrán comunicarse mediante mensajes en WhatsApp para resolver dudas rápidas o coordinar actividades.
+·	Compartir documentos: Los archivos y documentación del proyecto se mantendrán en Google Docs para que todos los miembros puedan acceder y editar la información cuando sea necesario.
+
+d.	Reglas internas del equipo.
+Para mantener un ambiente de trabajo organizado y colaborativo, el equipo Ternurin establece las siguientes reglas internas:
+·	Cumplir con las tareas asignadas dentro del tiempo establecido.
+·	Mantener actualizadas las actividades en el tablero de Jira.
+·	Respetar las opiniones y propuestas de todos los integrantes del equipo.
+·	Informar con anticipación cualquier retraso o dificultad en las tareas asignadas.
+·	Participar activamente en las reuniones del equipo.
+·	Está prohibido subir cambios directamente a la rama principal de GitHub sin una revisión previa.
+
+e.	Reglas para el manejo de conflictos
+Durante el desarrollo de un proyecto en equipo pueden surgir desacuerdos o conflictos, para manejarlos adecuadamente se establecen las siguientes reglas:
+ 
+·	Los conflictos deberán discutirse primero entre los miembros involucrados de manera respetuosa.
+·	En caso de no llegar a un acuerdo, el Project Manager actuará como mediador para buscar una solución.
+·	Las decisiones importantes se tomarán mediante una discusión entre los integrantes del equipo hasta llegar a un acuerdo en común que beneficie al sistema.
+·	Siempre se priorizará el bienestar del equipo y el cumplimiento de los objetivos del sistema.
+
 6. Tecnologia
 
 a. Lenguaje elegido
@@ -262,8 +323,16 @@ Estas son las funciones clave que permiten que el sistema cumpla con su propósi
 •	Enlace de Contacto Directo: Botón para acordar puntos de entrega dentro del instituto sin exponer datos privados de forma pública.
 •	Búsqueda por Palabras Clave: Motor de búsqueda para localizar artículos específicos de forma inmediata.
 
+b. Requisitos Basicos.
+Como requisitos básicos para mercadito libre tenemos lo siguiente: 
 
-b.	Características del software.
+• Registro e inicio de sesión para los usuarios mediante información asociada a la comunidad estudiantil. 
+• Publicación de productos o alimentos por parte de los estudiantes vendedores. 
+•Visualización de información del vendedor o producto (En que Campus de la UACJ se oferta el producto o encuentra el vendedor) 
+•Control de disponibilidad de productos, permitiendo a los vendedores marcar articulos como disponibles o agotados. 
+•Interfaz sencilla y optimizada para facilitar la navegación desde dispositivos móviles. 
+
+c.	Características del software.
 MercaDito Libre se define por las siguientes cualidades técnicas y de experiencia de uso:
 •	Exclusividad Universitaria: Entorno cerrado que garantiza que todos los participantes son miembros activos de la UACJ.
 •	Diseño Mobile-First: Interfaz optimizada para una navegación rápida y sencilla desde dispositivos móviles entre clases.
@@ -274,8 +343,9 @@ MercaDito Libre se define por las siguientes cualidades técnicas y de experienc
 •	Eficiencia en Consumo de Datos: Optimización de recursos para funcionar correctamente con el Wi-Fi universitario o datos móviles.
 •	Sincronización en Tiempo Real: Los cambios en el inventario se reflejan inmediatamente para evitar desinformación sobre el stock.
 
+ HEAD
 6. Tecnologia 
-b. Herramienta de prueba (QA)
+d. Herramienta de prueba (QA)
 En esta sección nos enfocaremos en asegurar que el sistema sea confiable y que las transacciones de compra/venta sean exactas. 
 
 Pruebas de Transacciones (TPS - Transaction Processing Systems):  Se implementarán pruebas específicas para validar el flujo de transacciones. El objetivo es asegurar que las operaciones cumplan con las propiedades ACID (Atomicidad, Consistencia, Aislamiento y Durabilidad), garantizando que si una venta falla, el inventario no se altere erróneamente. 
@@ -297,4 +367,26 @@ Control de Versiones y Repositorio: Herramienta: GitHub. Es la infraestructura. 
 Gestión de Base de Datos: Herramienta: phpMyAdmin. Para la administración visual, diseño de tablas y ejecución de scripts SQL de forma eficiente.  
 
 Colaboración y Documentación: Herramientas: Microsoft Teams y Jira. Como mencionamos en el TXT, estas herramientas forman parte de la infraestructura de gestión para el seguimiento de tareas y almacenamiento de manuales técnicos. 
+
+
+d. Criterios de calidad. 
+El sistema MercaDito libre deberá cumplir con diversos criterios de calidad para garantizar su correcto funcionamiento y una experiencia adecuada para los estudiantes de la UACJ. Dado que la aplicación contara con una interfaz web desarrollada con HTML, CSS y JavaScript, se priorizarán los siguientes aspectos: 
+
+•Usabilidad: La interfaz del sistema debe ser clara, intuitiva y fácil de navegar para los estudiantes, permitiendo localizar productos de manera rápida. 
+•Rendimiento: El sistema debe cargar la información de productos de forma rápida y eficiente para evitar tiempos de espera prolongados en la navegación. 
+•Compatibilidad: La aplicación debe funcionar correctamente en los navegadores web más utilizados y adaptarse a diferentes dispositivos, especialmente teléfonos móviles. 
+•Confiabilidad: Las funcionalidades implementadas mediante JavaScript deben ejecutarse correctamente, garantizando que las acciones del usuario, al publicar o consultar productos, funcionen sin errores. 
+•Seguridad básica: El sistema debe proteger la información de los usuarios y evitar accesos no autorizados o modificaciones indebidas en los datos. 
+
+Estos criterios permitirán evaluar la calidad del sistema y asegurar que la plataforma sea útil y confiable para la comunidad estudiantil. 
+
+e. ¿Qué haría que el producto fracase? 
+A pesar de las ventajas del sistema MercaDito Libre, existen diversos factores que podrían afectar su éxito dentro de la comunidad estudiantil de la UACJ. 
+•Baja adopción del sistema por parte de los estudiantes, si prefieren continuar utilizando redes sociales como Facebook para la compra y venta de productos. 
+•Problemas de rendimiento o errores en la interfaz, derivados de fallos en la implementación con HTML, CSS o JavaScript. 
+•Falta de actualización de los productos, lo que podría provocar que los usuarios encuentren publicaciones de artículos que ya no están disponibles. 
+•Problemas de compatibilidad entre navegadores, que podrían afectar la correcta visualización o funcionamientos del sistema. 
+•Falta de promoción o difusión dentro de la universidad, lo que limitaría el conocimiento del sistema entre los estudiantes. 
+
+Identificar estos posibles riesgos permite anticipar problemas y mejorar el desarrollo del sistema para aumentar sus probabilidades de éxito. 
 
