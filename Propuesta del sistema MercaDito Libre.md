@@ -52,6 +52,12 @@ e.	Métricas del proyecto.	12
 i.	Tiempos	12
 ii.	Costo estimado	12
 iii.	Indicadores del avance	12
+4.	Personas.	12
+a.	Roles.	12
+b.	Responsabilidades.	13
+c.	Estrategias de comunicación.	14
+d.	Reglas internas del equipo.	14
+e.	Reglas para el manejo de conflictos	14
 5. Producto.	12
 a.	Funcionalidades principales.	12
 c.	Características del software.	13
@@ -206,6 +212,61 @@ ii.	Costo estimado
 iii.	Indicadores del avance
 	Estado de GitHub: Número de commits y funcionalidades integradas al repositorio principal.
 	Cumplimiento de prototipos: Porcentaje de pantallas de la interfaz validadas en Figma y aprobadas por el equipo.
+
+
+​ 4.	Personas.
+a.	Roles.
+El equipo Ternurin está conformado por 5 personas y nos hemos organizado para asignar los roles para el desarrollo del sistema MercaDito Libre.
+·	Project Manager: para la gestión y coordinación del proyecto estará a cargo América Aurora Álvarez Rodríguez.
+·	Diseñadores UI/UX: para el diseño y experiencia de usuario los responsables son Abril Gisel Aguilera Rico y Marco Antinio Martínez Ortiz.
+·	Desarrolladores de software: Los responsables de la arquitectura del software e implementación del proyecto son Diego Arath Sáenz González y Rubén Joel Fierro Luevanos.
+
+b.	Responsabilidades.
+Cada rol tiene responsabilidades específicas para asegurar el cumplimiento de los objetivos, permitir un avance de manera organizada y que cada miembro contribuya al desarrollo del sistema de MercaDito Libre.
+
+·	Project Manager:
+  o	Planificar las actividades del proyecto.
+  o	Supervisar el complimiento del cronograma de 6 semanas y el progreso del proyecto.
+  o	Administrar y organizar los sprints y tareas dentro de Jira.
+  o	Gestionar los riesgos del proyecto y aplicar los planes de mitigación.
+  o	Coordinar las reuniones de seguimiento del equipo.
+  o	Actuar como mediadora principal en la resolución de conflictos internos.
+·	Diseñadores UI/UX:
+  o	Diseñar la interfaz del sistema.
+  o	Crear los prototipos del sistema en Figma.
+  o	Asegurarse que la navegación del sistema sea intuitiva y fácil de utilizar.
+  o	Colaborar con los desarrolladores para implementar correctamente el diseño.
+·	Desarrolladores de software:
+  o	Programar las funcionalidades principales del sistema.
+  o	Implementar la lógica del control de inventario.
+  o	Integrar la base de datos con la interfaz del sistema.
+  o	Implementar el módulo de validación de estudiante mediante correo de la UACJ.
+  o	Administrar el control de versiones y mantener actualizado el repositorio en GitHub.
+
+c.	Estrategias de comunicación.
+Para que el equipo Ternurin tenga una comunicación fluida y una buena coordinación entre los integrantes del equipo se implementaran las siguientes estrategias de comunicación:
+·	Reuniones en Microsoft Teams: Se programarán reuniones semanales para revisar el progreso del proyecto, resolver dudas y asignar nuevas tareas.
+·	Seguimiento mediante Jira: Todas las tareas y avances del proyecto se registrarán en el tablero de Jira para mantener un control claro del progreso.
+·	Notificación de cambios: Notificaciones automáticas de cambios en Jira y revisiones de código mediante Pull Requests en GitHub.
+·	Comunicación constante del equipo: Los integrantes podrán comunicarse mediante mensajes en WhatsApp para resolver dudas rápidas o coordinar actividades.
+·	Compartir documentos: Los archivos y documentación del proyecto se mantendrán en Google Docs para que todos los miembros puedan acceder y editar la información cuando sea necesario.
+
+d.	Reglas internas del equipo.
+Para mantener un ambiente de trabajo organizado y colaborativo, el equipo Ternurin establece las siguientes reglas internas:
+·	Cumplir con las tareas asignadas dentro del tiempo establecido.
+·	Mantener actualizadas las actividades en el tablero de Jira.
+·	Respetar las opiniones y propuestas de todos los integrantes del equipo.
+·	Informar con anticipación cualquier retraso o dificultad en las tareas asignadas.
+·	Participar activamente en las reuniones del equipo.
+·	Está prohibido subir cambios directamente a la rama principal de GitHub sin una revisión previa.
+
+e.	Reglas para el manejo de conflictos
+Durante el desarrollo de un proyecto en equipo pueden surgir desacuerdos o conflictos, para manejarlos adecuadamente se establecen las siguientes reglas:
+ 
+·	Los conflictos deberán discutirse primero entre los miembros involucrados de manera respetuosa.
+·	En caso de no llegar a un acuerdo, el Project Manager actuará como mediador para buscar una solución.
+·	Las decisiones importantes se tomarán mediante una discusión entre los integrantes del equipo hasta llegar a un acuerdo en común que beneficie al sistema.
+·	Siempre se priorizará el bienestar del equipo y el cumplimiento de los objetivos del sistema.
 
 6. Tecnologia
 
