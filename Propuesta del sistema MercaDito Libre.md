@@ -321,8 +321,16 @@ Estas son las funciones clave que permiten que el sistema cumpla con su propósi
 •	Enlace de Contacto Directo: Botón para acordar puntos de entrega dentro del instituto sin exponer datos privados de forma pública.
 •	Búsqueda por Palabras Clave: Motor de búsqueda para localizar artículos específicos de forma inmediata.
 
+b. Requisitos Basicos.
+Como requisitos básicos para mercadito libre tenemos lo siguiente: 
 
-b.	Características del software.
+• Registro e inicio de sesión para los usuarios mediante información asociada a la comunidad estudiantil. 
+• Publicación de productos o alimentos por parte de los estudiantes vendedores. 
+•Visualización de información del vendedor o producto (En que Campus de la UACJ se oferta el producto o encuentra el vendedor) 
+•Control de disponibilidad de productos, permitiendo a los vendedores marcar articulos como disponibles o agotados. 
+•Interfaz sencilla y optimizada para facilitar la navegación desde dispositivos móviles. 
+
+c.	Características del software.
 MercaDito Libre se define por las siguientes cualidades técnicas y de experiencia de uso:
 •	Exclusividad Universitaria: Entorno cerrado que garantiza que todos los participantes son miembros activos de la UACJ.
 •	Diseño Mobile-First: Interfaz optimizada para una navegación rápida y sencilla desde dispositivos móviles entre clases.
@@ -332,3 +340,24 @@ MercaDito Libre se define por las siguientes cualidades técnicas y de experienc
 •	Navegación Intuitiva (UI/UX): Diseño enfocado en encontrar lo que se busca con el menor número de clics posibles.
 •	Eficiencia en Consumo de Datos: Optimización de recursos para funcionar correctamente con el Wi-Fi universitario o datos móviles.
 •	Sincronización en Tiempo Real: Los cambios en el inventario se reflejan inmediatamente para evitar desinformación sobre el stock.
+
+d. Criterios de calidad. 
+El sistema MercaDito libre deberá cumplir con diversos criterios de calidad para garantizar su correcto funcionamiento y una experiencia adecuada para los estudiantes de la UACJ. Dado que la aplicación contara con una interfaz web desarrollada con HTML, CSS y JavaScript, se priorizarán los siguientes aspectos: 
+
+•Usabilidad: La interfaz del sistema debe ser clara, intuitiva y fácil de navegar para los estudiantes, permitiendo localizar productos de manera rápida. 
+•Rendimiento: El sistema debe cargar la información de productos de forma rápida y eficiente para evitar tiempos de espera prolongados en la navegación. 
+•Compatibilidad: La aplicación debe funcionar correctamente en los navegadores web más utilizados y adaptarse a diferentes dispositivos, especialmente teléfonos móviles. 
+•Confiabilidad: Las funcionalidades implementadas mediante JavaScript deben ejecutarse correctamente, garantizando que las acciones del usuario, al publicar o consultar productos, funcionen sin errores. 
+•Seguridad básica: El sistema debe proteger la información de los usuarios y evitar accesos no autorizados o modificaciones indebidas en los datos. 
+
+Estos criterios permitirán evaluar la calidad del sistema y asegurar que la plataforma sea útil y confiable para la comunidad estudiantil. 
+
+e. ¿Qué haría que el producto fracase? 
+A pesar de las ventajas del sistema MercaDito Libre, existen diversos factores que podrían afectar su éxito dentro de la comunidad estudiantil de la UACJ. 
+•Baja adopción del sistema por parte de los estudiantes, si prefieren continuar utilizando redes sociales como Facebook para la compra y venta de productos. 
+•Problemas de rendimiento o errores en la interfaz, derivados de fallos en la implementación con HTML, CSS o JavaScript. 
+•Falta de actualización de los productos, lo que podría provocar que los usuarios encuentren publicaciones de artículos que ya no están disponibles. 
+•Problemas de compatibilidad entre navegadores, que podrían afectar la correcta visualización o funcionamientos del sistema. 
+•Falta de promoción o difusión dentro de la universidad, lo que limitaría el conocimiento del sistema entre los estudiantes. 
+
+Identificar estos posibles riesgos permite anticipar problemas y mejorar el desarrollo del sistema para aumentar sus probabilidades de éxito. 
